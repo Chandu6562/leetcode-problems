@@ -1,0 +1,21 @@
+# Permutation Difference between Two Strings
+
+'''You are given two strings s and t such that every character occurs at most once in s and t is a permutation of s.
+
+The permutation difference between s and t is defined as the sum of the absolute difference between
+the index of the occurrence of each character in s and the index of the occurrence of the same character in t.
+
+Return the permutation difference between s and t.'''
+
+s = "abcde"
+t = "edbac"
+d={}
+for i in range(len(s)):
+    if s[i] not in d:
+        x=s.index(s[i])
+        y=t.index(s[i])
+        d[s[i]]=abs(x-y)
+res=0
+for j in d.values():
+    res+=j
+print(res)
