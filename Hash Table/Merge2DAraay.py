@@ -13,3 +13,12 @@ Each id should be included only once and its value should be the sum of the valu
 If the id does not exist in one of the two arrays, then assume its value in that array to be 0.
 Return the resulting array. The returned array must be sorted in ascending order by id.'''
 
+nums1 = [[1,2],[2,3],[4,5]]
+nums2 = [[1,4],[3,2],[4,1]]
+d = {}
+for i, v in nums1:
+    d[i] = d.get(i, 0) + v
+for i, v in nums2:
+    d[i] = d.get(i, 0) + v
+a = [[i, d[i]] for i in sorted(d.keys())]
+print(a)
