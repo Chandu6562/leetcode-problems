@@ -4,7 +4,8 @@
 
 Given a string sentence containing only lowercase English letters, return true if sentence is a pangram, or false otherwise.'''
 
-sentence = "thequickbrownfoxjumpsoverthelazydog"
+# sentence = "thequickbrownfoxjumpsoverthelazydog"
+sentence='leetcode'
 alphabets="abcdefghijklmnopqrstuvwxyz"
 flag=False
 if len(sentence)>=26:
