@@ -10,13 +10,32 @@ Return an array answer of size n, where answer[i] is the minimum number of opera
 Each answer[i] is calculated considering the initial state of the boxes.'''
 
 # boxes = "110"
+# boxes = "001011"
+# n = len(boxes)
+# answer = []
+# for i in range(n):
+#     moves = 0
+#     for j in range(n):
+#         if boxes[j] == '1':
+#             moves += abs(i - j)
+#     answer.append(moves)
+# print(answer)
+
 boxes = "001011"
 n = len(boxes)
-answer = []
+answer = [0] * n
+count = 0      
+ops = 0        
 for i in range(n):
-    moves = 0
-    for j in range(n):
-        if boxes[j] == '1':
-            moves += abs(i - j)
-    answer.append(moves)
+    answer[i] += ops
+    if boxes[i] == '1':
+        count += 1
+    ops += count
+count = 0
+ops = 0
+for i in range(n-1, -1, -1):
+    answer[i] += ops
+    if boxes[i] == '1':
+        count += 1
+    ops += count
 print(answer)
