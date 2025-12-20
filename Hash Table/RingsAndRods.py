@@ -27,4 +27,4 @@ for rod in rod_colors:
     if len(rod_colors[rod]) == 3:
         count += 1
 
-print(count)
+print(count) 
