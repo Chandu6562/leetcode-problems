@@ -27,6 +27,6 @@ for word in words:
     code = ""
     for ch in word:
         code += morse[ord(ch) - ord('a')]
-    transformations.add(code)
+    transformations.add(code) 
 
 print(len(transformations))
