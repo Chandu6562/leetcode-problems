@@ -9,7 +9,8 @@ Return the sum of the squares of distinct counts of all subarrays of nums.
 
 A subarray is a contiguous non-empty sequence of elements within an array.'''
 
-nums = [1, 2, 1]
+# nums = [1, 2, 1]
+nums = [1,1]
 n = len(nums)
 ans = 0
 for i in range(n):
