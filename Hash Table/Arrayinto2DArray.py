@@ -8,7 +8,8 @@ Return the resulting array. If there are multiple answers, return any of them.
 
 Note that the 2D array can have a different number of elements on each row.'''
 
-nums = [1, 3, 4, 1, 2, 3, 1]
+# nums = [1, 3, 4, 1, 2, 3, 1]
+nums = [1,2,3,4]
 freq = {}
 for num in nums:
     freq[num] = freq.get(num, 0) + 1
