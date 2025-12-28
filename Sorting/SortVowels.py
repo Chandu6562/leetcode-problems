@@ -11,7 +11,8 @@ Return the resulting string.
 The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in lowercase or uppercase.
 Consonants comprise all letters that are not vowels.'''
 
-s = "lEetcOde"
+# s = "lEetcOde"
+s = "lYmpH"
 vowels_set = set('aeiouAEIOU')
 vowels = []
 for ch in s:
