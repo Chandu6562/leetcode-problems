@@ -10,8 +10,10 @@ Return the minimum number of moves required to move each student to a seat such 
 
 Note that there may be multiple seats or students in the same position at the beginning.'''
 
-seats = [3,1,5]
-students = [2,7,4]
+# seats = [3,1,5]
+# students = [2,7,4]
+seats = [4,1,5,9]
+students = [1,3,2,6]
 seats.sort()
 students.sort()
 moves = 0
