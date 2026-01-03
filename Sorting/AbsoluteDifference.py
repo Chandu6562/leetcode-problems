@@ -7,8 +7,10 @@ the sum of the k largest elements in the array; and
 the sum of the k smallest elements in the array.
 Return an integer denoting this difference.'''
 
-nums = [5,2,2,4]
-k = 2
+# nums = [5,2,2,4]
+# k = 2
+nums = [100]
+k = 1
 nums.sort()
 a=nums[:k]
 b=nums[-k:]
