@@ -8,7 +8,8 @@ Each heights[i] is the height of the ith student in line (0-indexed).
 
 Return the number of indices where heights[i] != expected[i].'''
 
-heights = [1,1,4,2,1,3]
+# heights = [1,1,4,2,1,3]
+heights = [5,1,2,3,4]
 expected = sorted(heights)
 indices=0
 for i in range(len(heights)):
