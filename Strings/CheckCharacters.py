@@ -3,7 +3,8 @@
 
 A string s is good if all the characters that appear in s have the same number of occurrences (i.e., the same frequency).'''
 
-s = "abacbc"
+# s = "abacbc"
+s = "aaabb"
 d={}
 for i in s:
     if i not in d:
