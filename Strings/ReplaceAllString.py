@@ -10,7 +10,8 @@ Return s after replacing all digits. It is guaranteed that shift(s[i-1], s[i]) w
 
 Note that shift(c, x) is not a preloaded function, but an operation to be implemented as part of the solution.'''
 
-s = "a1c1e1"
+# s = "a1c1e1"
+s = "a1b2c3d4e"
 s=list(s)
 for i in range(1,len(s),2):
     s[i]=chr(ord(s[i-1])+int(s[i]))
