@@ -5,7 +5,9 @@ You replace each element in nums with the sum of its digits.
 
 Return the minimum element in nums after all replacements.'''
 
-nums = [999,1,199]
+
+# nums = [999,10,199]
+nums = [10,12,13,14]
 l=[]
 for i in range(len(nums)):
     sum=0
