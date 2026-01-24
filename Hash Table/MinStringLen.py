@@ -7,7 +7,8 @@ Your task is to minimize the length of s by performing the above operations zero
 
 Return an integer denoting the length of the minimized string.'''
 
-s = "aaabc"
+# s = "aaabc"
+s = "baadccab"
 d={}
 for i in s:
     if i in d:
