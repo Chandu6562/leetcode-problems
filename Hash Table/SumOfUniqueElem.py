@@ -3,7 +3,8 @@
 
 Return the sum of all the unique elements of nums.'''
 
-nums = [1,2,3,2,5]
+# nums = [1,2,3,2,5]
+nums = [1,1,1,1,1]
 sum=0
 for i in nums:
     if nums.count(i)<=1:
