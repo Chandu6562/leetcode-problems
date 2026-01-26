@@ -6,8 +6,10 @@ Return an integer denoting the sum of all elements in nums whose frequency is di
 
 Note: An element is included in the sum exactly as many times as it appears in the array if its total frequency is divisible by k.'''
 
-nums = [4,4,4,1,2,3]
-k = 3
+# nums = [4,4,4,1,2,3]
+# k = 3
+nums = [1,2,2,3,3,3,3,4]
+k = 2
 sum=0
 d={}
 for i in nums:
