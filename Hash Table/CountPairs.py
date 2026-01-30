@@ -6,7 +6,8 @@ A complete day is defined as a time duration that is an exact multiple of 24 hou
 
 For example, 1 day is 24 hours, 2 days is 48 hours, 3 days is 72 hours, and so on.'''
 
-hours = [72,48,24,3]
+# hours = [72,48,24,3]
+hours = [12,12,30,24,24]
 count=0
 for i in range(len(hours)):
     for j in range(i+1,len(hours)):
