@@ -7,7 +7,8 @@ Notice that s contains uppercase and lowercase letters.
 
 Return true if a and b are alike. Otherwise, return false.'''
 
-s = "book"
+# s = "book"
+s = "textbook"
 l=list(s)
 n=len(l)//2
 a=l[:n]
