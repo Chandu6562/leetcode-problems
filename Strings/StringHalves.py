@@ -13,7 +13,7 @@ l=list(s)
 n=len(l)//2
 a=l[:n]
 b=l[n:]
-a_count=0
+a_count=0 
 b_count=0
 for i in range(len(a)):
     if a[i] in "AEIOUaeiou":
