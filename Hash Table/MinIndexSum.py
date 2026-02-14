@@ -8,8 +8,10 @@ at list1[i] and list2[j] then i + j should be the minimum value among all the ot
 
 Return all the common strings with the least index sum. Return the answer in any order.'''
 
-list1=["dixyp","uq","q","KFC"]
-list2=["yl","fjugc","rlni","dixyp","uq","q","KFC"]
+# list1=["dixyp","uq","q","KFC"]
+# list2=["yl","fjugc","rlni","dixyp","uq","q","KFC"]
+list1 = ["happy","sad","good"]
+list2 = ["sad","happy","good"]
 
 d1={ ele:index for index,ele in enumerate(list1)}
 d2={ ele:index for index,ele in enumerate(list2)}
