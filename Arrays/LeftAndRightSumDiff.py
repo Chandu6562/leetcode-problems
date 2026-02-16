@@ -8,19 +8,31 @@ leftSum[i] is the sum of elements to the left of the index i in the array nums. 
 rightSum[i] is the sum of elements to the right of the index i in the array nums. If there is no such element, rightSum[i] = 0.
 Return an integer array answer of size n where answer[i] = |leftSum[i] - rightSum[i]|.'''
 
+# nums = [10,4,8,3]
+
+# left = []
+# right = []
+# res=[]
+# lsum=0
+# for i in range(len(nums)):
+#     left.append(lsum)
+#     lsum+=nums[i]
+# rsum=0
+# for i in range(len(nums)-1,-1,-1):
+#     right.insert(0,rsum)
+#     rsum+=nums[i]
+# for i in range(len(nums)):
+#     res.append(abs(left[i]-right[i]))
+# print(res)
+
 nums = [10,4,8,3]
 
-left = []
-right = []
-res=[]
-lsum=0
-for i in range(len(nums)):
-    left.append(lsum)
-    lsum+=nums[i]
-rsum=0
-for i in range(len(nums)-1,-1,-1):
-    right.insert(0,rsum)
-    rsum+=nums[i]
-for i in range(len(nums)):
-    res.append(abs(left[i]-right[i]))
-print(res)
+total_sum = sum(nums)
+left_sum = 0
+answer = []
+
+for x in nums:
+    right_sum = total_sum - left_sum - x
+    answer.append(abs(left_sum - right_sum))
+    left_sum += x
+print(answer)
