@@ -5,7 +5,8 @@ Return the bitwise OR of all even numbers in the array.
 
 If there are no even numbers in nums, return 0.'''
 
-nums = [1,8,16]
+# nums = [1,8,16]
+nums = [7,9,11]
 res =0
 even =0
 for i in range(len(nums)):
