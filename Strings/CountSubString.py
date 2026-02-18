@@ -8,8 +8,10 @@ The number of 0's in the string is at most k.
 The number of 1's in the string is at most k.
 Return an integer denoting the number of substrings of s that satisfy the k-constraint.'''
 
-s = "10101"
-k = 1
+# s = "10101"
+# k = 1
+s = "1010101"
+k = 2
 l=0
 temp=0
 zero=0
