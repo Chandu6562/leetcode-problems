@@ -14,8 +14,8 @@ while column 1 ('b', 'c', 'a') is not, so you would delete column 1.
 
 Return the number of columns that you will delete.'''
 
-strs = ["cba","daf","ghi"]
-
+# strs = ["cba","daf","ghi"]
+strs = ["zyx","wvu","tsr"]
 rows = len(strs)
 cols = len(strs[0])
 delete_count = 0
