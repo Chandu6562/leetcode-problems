@@ -26,5 +26,5 @@ def isHappy(n):
         n = total
     
     return True
-n=2
+n=19
 print(isHappy(n))
