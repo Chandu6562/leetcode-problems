@@ -24,6 +24,8 @@ def partitionArray(nums,pivot):
             equal.append(i)
     return smaller+equal+greater
 
-nums = [9,12,5,10,14,3,10]
-pivot = 10
+# nums = [9,12,5,10,14,3,10]
+# pivot = 10
+nums = [-3,4,3,2]
+pivot = 2
 print(partitionArray(nums,pivot))
